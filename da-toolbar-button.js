@@ -23,13 +23,19 @@
       ".da_toolbar_button_wrapper.da_toolbar_button_is_visible{" +
       "opacity:1;" +
       "visibility:visible;" +
+      "position: fixed;" +
+      "bottom: 0;" +
+      "margin: 0 0 1rem;" +
+      "border-radius: 5rem;" +
+      "background-color: black;" +
+      "box-shadow: -.1rem .25rem .5rem #000000;" +
+      "z-index: 99;" +
       "}" +
       ".da_toolbar_button_cta{" +
       "display:inline-flex;" +
       "align-items:center;" +
       "justify-content:center;" +
       "min-height:44px;" +
-      "background-color:#000000;" +
       "}" +
       ".da_toolbar_button_cta a{" +
       "display:inline-flex;" +
@@ -57,14 +63,10 @@
       "align-items:center;" +
       "justify-content:center;" +
       "border:0;" +
-      "background-color:#000000;" +
+      "background-color:transparent;" +
       "color:#ffffff;" +
       "cursor:pointer;" +
       "padding:0;" +
-      "}" +
-      ".da_toolbar_button_share:hover," +
-      ".da_toolbar_button_share:focus{" +
-      "background-color:#222222;" +
       "}" +
       ".da_toolbar_button_share svg{" +
       "width:22px;" +
